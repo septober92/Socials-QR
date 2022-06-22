@@ -7,6 +7,10 @@
   min-height: 100%;
 }
 
+body {
+  background-color: #eee;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -15,7 +19,6 @@
   min-width: 100vw;
   min-height: 100vh;
   gap: 5em;
-  background-color: #eee;
   position: relative;
 }
 
