@@ -40,7 +40,7 @@ p:first-of-type {
   max-width: 20em;
   max-height: min-content;
   border-radius: 20px;
-  margin: 0;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card-1 img {
@@ -71,8 +71,7 @@ p:first-of-type {
   max-width: 20em;
   max-height: min-content;
   border-radius: 20px;
-
-  /* margin: auto; */
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card-2 img {
@@ -103,6 +102,7 @@ p:first-of-type {
   max-width: 20em;
   max-height: min-content;
   border-radius: 20px;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
 }
 
 .card-3 img {
@@ -113,7 +113,7 @@ p:first-of-type {
   transition: all 0.5s ease-out;
 }
 
-img:hover {
+.card-3 img:hover {
   transform: scale(1.04);
 }
 
