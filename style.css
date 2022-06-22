@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Raleway:wght@300;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-width: 100vw;
+  min-height: 100vh;
+  gap: 5em;
+  background-color: #eee;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 0.8em;
+  font-family: "Kaushan Script";
+  font-size: 5em;
+}
+
+p {
+  font-family: "Raleway";
+  color: #eee;
+}
+
+p:first-of-type {
+  font-weight: 600;
+}
+
+.card-1 {
+  background-color: hsl(292, 83%, 40%);
+  max-width: 20em;
+  max-height: min-content;
+  border-radius: 20px;
+  margin: 0;
+}
+
+.card-1 img {
+  width: 200px;
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.card-1 img:hover {
+  transform: scale(1.04);
+}
+
+.card-1 p:first-of-type {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.card-1 p:last-child {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-2 {
+  background-color: #1a46d7;
+  max-width: 20em;
+  max-height: min-content;
+  border-radius: 20px;
+
+  /* margin: auto; */
+}
+
+.card-2 img {
+  width: 200px;
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.card-2 img:hover {
+  transform: scale(1.04);
+}
+
+.card-2 p:first-of-type {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.card-2 p:last-child {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-3 {
+  background-color: #d31333;
+  max-width: 20em;
+  max-height: min-content;
+  border-radius: 20px;
+}
+
+.card-3 img {
+  width: 200px;
+  display: block;
+  margin: 10px;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+}
+
+img:hover {
+  transform: scale(1.04);
+}
+
+.card-3 p:first-of-type {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.card-3 p:last-child {
+  margin-bottom: 30px;
+  text-align: center;
+}
