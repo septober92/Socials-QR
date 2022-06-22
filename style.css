@@ -27,6 +27,7 @@ h1 {
   top: 0.8em;
   font-family: "Kaushan Script";
   font-size: 5em;
+  z-index: -1;
 }
 
 p {
