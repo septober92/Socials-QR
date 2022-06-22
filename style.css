@@ -4,11 +4,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  min-height: 100%;
 }
 
 body {
   background-color: #eee;
+  min-height: 100%;
 }
 
 .container {
@@ -16,18 +16,16 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: max-content;
+  min-height: max-content;
   gap: 5em;
-  position: relative;
 }
 
 h1 {
-  position: absolute;
-  top: 0.7em;
+  text-align: center;
+  margin: 10% auto 15px;
   font-family: "Kaushan Script";
   font-size: 5em;
-  z-index: -1;
 }
 
 p {
@@ -35,99 +33,46 @@ p {
   color: #eee;
 }
 
-p:first-of-type {
+.card {
+  max-width: 30em;
+  max-height: min-content;
+  border-radius: 20px;
+  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 230px;
+  display: block;
+  margin: 10px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.card.ig {
+  background-image: linear-gradient(#fff, 75%, #b13abc);
+}
+
+.card.vk {
+  background-image: linear-gradient(#fff, 75%, #0077ff);
+}
+
+.card.yt {
+  background-image: linear-gradient(#fff, 75%, #cd201f);
+}
+
+.card img:hover {
+  transform: scale(1.04);
+}
+
+.card p:first-of-type {
   font-weight: 600;
-}
-
-.card-1 {
-  background-color: hsl(292, 83%, 40%);
-  max-width: 20em;
-  max-height: min-content;
-  border-radius: 20px;
-  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
-}
-
-.card-1 img {
-  width: 200px;
-  display: block;
-  margin: 10px;
-  border-radius: 10px;
-  transition: all 0.5s ease-out;
-}
-
-.card-1 img:hover {
-  transform: scale(1.04);
-}
-
-.card-1 p:first-of-type {
   font-size: 2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.6em;
   text-align: center;
 }
 
-.card-1 p:last-child {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.card-2 {
-  background-color: #1a46d7;
-  max-width: 20em;
-  max-height: min-content;
-  border-radius: 20px;
-  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
-}
-
-.card-2 img {
-  width: 200px;
-  display: block;
-  margin: 10px;
-  border-radius: 10px;
-  transition: all 0.5s ease-out;
-}
-
-.card-2 img:hover {
-  transform: scale(1.04);
-}
-
-.card-2 p:first-of-type {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-  text-align: center;
-}
-
-.card-2 p:last-child {
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.card-3 {
-  background-color: #d31333;
-  max-width: 20em;
-  max-height: min-content;
-  border-radius: 20px;
-  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.2);
-}
-
-.card-3 img {
-  width: 200px;
-  display: block;
-  margin: 10px;
-  border-radius: 10px;
-  transition: all 0.5s ease-out;
-}
-
-.card-3 img:hover {
-  transform: scale(1.04);
-}
-
-.card-3 p:first-of-type {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-  text-align: center;
-}
-
-.card-3 p:last-child {
+.card p:last-child {
   margin-bottom: 30px;
   text-align: center;
 }
